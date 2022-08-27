@@ -1,0 +1,297 @@
+*{
+    margin:0
+}
+.main{
+    width:1000px;
+    margin:auto;
+}
+.cont{
+    height:500px;
+    font-family: arial;
+}
+.header{
+    background-image:url(./images/header4.jpg);
+    background-size: cover;
+    color:white;
+
+}
+.logo,.dwn{
+    float:left;
+    height:100px;
+   width:200px;
+}
+.nav{
+    float:left;
+    height:100px;
+    width:600px;
+}
+.dwn input,.logo img,.play{
+    height:50px;
+    width:140px;
+    margin:25px 30px;
+    border:0px;
+    color:white;
+    border-radius: 10px;
+}
+.nav li{
+    float:left;
+    width:90px;
+    line-height: 100px;
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+}
+.header h1{
+    font-family: algerian;
+    padding: 200px 0 0 50px
+}
+.header .play{
+    margin:50px;
+    color:green
+}
+/*---------- About-----------*/
+#about div{
+width:50%;
+height:500px;
+float:left;
+}
+#about .left img{
+height:70%;
+width:80%;
+margin:7%
+}
+#about h1{
+    margin:50px 0px 0px 50px;
+}
+#about h5{
+    text-align: center;
+    border-bottom:2px solid aqua;
+    width:100px;
+    margin:50px 200px;
+}
+#about h2,#about p{
+    margin:15px 30px 0px 0px 
+}
+/* services */
+.sv{
+height:350px;
+width:900px;
+margin:30px 50px;
+border:1px solid rgb(231, 228, 223)
+}
+#services{
+    background:whitesmoke;
+}
+#services h1{
+    text-align: center;
+    padding-top:50px;
+}
+.p,.t{
+width:300px;
+height:50%;
+float:left
+}
+.p img{
+    height:100%;
+    width:100%;
+}
+.t{
+  text-align: center;  
+}
+.t p{
+    padding:10px;
+    color:gray
+}
+.t input{
+    height:50px;
+    margin-top:10px;
+    width:150px;
+    background: green;
+    color:white;
+    border:0;
+    border-radius:10px;
+}
+.t h3{
+    padding-top:10px
+}
+/*------ work --------- */
+#work h1{
+    text-align: center;
+    padding-top:50px;
+}
+.wp{
+    height:100%;
+    width:33.3%;
+    float:left
+}
+#work .sv{
+    height:600px
+}
+#work{
+    height:800px
+}
+.wp img{
+height:100%;
+width:100%;
+border-radius: 5px;
+}
+.wp .p1{
+    height:55%;
+    margin:5%;
+}
+.wp .p2{
+    height:35%;
+    margin:5%;
+}
+.wp .p3{
+    height:70%;
+    margin:5%;
+}
+.w1{
+    position: relative;
+}
+.w1 input{
+    height:80px;
+    width:90%;
+    position:absolute;
+    left:10px;
+    bottom:10px;
+    border-radius: 10px;
+    border:0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.wp p{
+    color:gray
+}
+/* ----- price -------- */
+#price{
+    height:500px;
+    background:url(./images/header.jpg);
+}
+#price h1{
+    text-align: center;
+    padding-top: 50px;
+    color:white
+}
+#price .sv{
+    border:0
+}
+#price .sv .card{
+    width:390px;
+    height:350px;
+    float:left;
+    margin:0px 30px;
+    background:white;
+    position: relative;
+}
+.card h4{
+    margin-left:50px
+}
+.rec{
+position: absolute;
+top:0;
+right:0;
+padding:5px;
+background: green;
+font-size:15px;
+color:white
+}
+.mark{
+margin:50px 0 60px 0;
+}
+.mark .l1{
+    width:50px;
+    text-align: right;
+    display: inline-block;
+}
+.mark .l2{
+    width:250px;
+    font-weight: bold;
+    display: inline-block;
+}
+.card li,.card p{
+    color:gray;
+    font-size: 15px;
+    margin:5px 0px 5px 50px;
+}
+/*----------- contact------ */
+.form{
+    height:400px;
+    margin:100px;
+    padding-left:50px;
+    display: inline-block;
+}
+.form h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.form .fi{
+    float:left;
+    width:250px;
+    height:80px;
+}
+.fc{
+    width:700px;
+    height:80px;
+    float:left
+}
+.fi input{
+    width:80%;
+    height:30px;
+    border:1px solid rgb(223, 220, 220);
+}
+.form p{
+    color: gray;
+    font-size: 12px;
+}
+.form textarea{
+    width:100%;
+    height:50px;
+    border:1px solid rgb(223, 220, 220);
+}
+.btn input{
+    width:700px;
+    background: green;
+    border:0;
+    color:white;
+    height:50px
+}
+/* ---------footer ------------ */
+#footer{
+    background: black;
+    color:white;
+    padding:0 100px;
+    height:400px;
+    line-height: 30px;
+
+}
+#footer .info{
+    height:50%;
+    padding-top:100px;
+    border-bottom: 1px solid grey;
+}
+.info h5{
+    font-size: 10px;
+    color:ghostwhite;
+}
+.subscribe{
+    width:50%;
+    float:left
+}
+.opt{
+    width:25%;
+    float:left
+}
+.subscribe input{
+    border:0;
+    background: transparent;
+    height:50px;
+    border-bottom:1px solid white;
+}
+.subscribe button{
+    border:0;
+    padding:10px;
+    border-radius: 10px;
+}
